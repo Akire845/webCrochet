@@ -1,0 +1,225 @@
+
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700; 800&display=swap');
+
+*{
+    margin:0;
+    padding:0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3b0740;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /* Estilos para el encabezado */
+  
+  header {
+    background-color: #3b0740;
+    color: #fff;
+    padding: 25px;
+  }
+  
+  header h1 {
+    margin-top: 0;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la sección de inicio */
+  
+  #inicio {
+    background-color: #b673b6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #inicio h2 {
+    font-size: 24px;
+  }
+  
+  #inicio p {
+    font-size: 16px;
+  }
+  
+  #inicio img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Estilos para la sección de productos */
+  
+  #tienda {
+    padding: 20px;
+  }
+  
+  #tienda h2 {
+    font-size: 24px;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .productos .producto {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .productos .producto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .productos .producto .info-producto {
+    margin-top: 10px;
+  }
+  
+  .productos .producto .info-producto h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .productos .producto .info-producto p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+/* Media Query para dispositivos móviles (hasta 480px) */
+
+@media (max-width: 480px) {
+  .producto {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 5px; /* Reduce el margen entre productos */
+  }
+
+  .producto img {
+    height: 200px; /* Ajusta la altura de la imagen */
+  }
+}
+
+/* Media Query para tablets (481px a 768px) */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .producto {
+    width: 50%; /* Ocupa el 50% del ancho disponible */
+  }
+
+  .producto img {
+    height: 250px; /* Ajusta la altura de la imagen */
+  }
+}
+
+/* Media Query para pantallas medianas (769px a 1024px) */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .producto {
+    width: 33.33%; /* Ocupa el 33.33% del ancho disponible */
+  }
+
+  .producto img {
+    height: 300px; /* Ajusta la altura de la imagen */
+  }
+}
+
+  /* Estilos para la sección de registro */
+  
+  #registro {
+    padding: 20px;
+  }
+  
+  #registro h2 {
+    font-size: 24px;
+  }
+  
+  #registro p {
+    font-size: 16px;
+  }
+  
+  #registro form {
+    margin: 10px auto;
+    width: 50%;
+  }
+  
+  #registro label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #registro input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #registro input[type="submit"] {
+    background-color: #b673b6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la sección de contacto */
+  
+  #contacto {
+    padding: 20px;
+  }
+  
+  #contacto h2 {
+    font-size: 24px;
+  }
+  
+  #contacto p {
+    font-size: 16px;
+  }
+  
+  /* Estilos para el pie de página */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Online de Crochet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Hilos Con Kiki</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos a nuestra tienda de crochet</h2>
+      <h3> Diseñados con amor para ti</h3>
+      <p>Aquí encontraras un lugar encantador para descubrir
+        el trabajo de amor hecho con hilo y la magia de las
+        manos detrás de cada pieza.</p>
+      <!--img src="imagen1.jpg"-->
+    </section>
+
+    <section id="tienda">
+      <h2>Nuestros Productos</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="saco1.jpg" alt="SacoCrochet">
+          <div class="info-producto">
+            <h3>Saco niño</h3>
+            <p>$120.000</p>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="conejo.jpeg" alt="conejo">
+          <div class="info-producto">
+            <h3>Conejo</h3>
+            <p>$80.000</p>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="bolso.jpg" alt="bolso">
+          <div class="info-producto">
+            <h3>Bolso crochet</h3>
+            <p>$85.000</p>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="top.jpg" alt="Top">
+          <div class="info-producto">
+            <h3>Crop Top</h3>
+            <p>$100.000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="registro">
+      <h2>Registro</h2>
+      <p>Puedes registrarte aquí.</p>
+      <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="contraseña"> Contraseña:</label>
+        <input type="contraseña" id="contraseña" name="contraseña"><br>
+
+        <input type="submit" value="Resgistrarse"><br>
+      </form>
+        <p>Puedes ingresar aquí.</p>
+        <form action="/submit" method="post">
+
+          <label for="usuario"> Email:</label>
+          <input type="email" id="usuario" name="usuario"><br>
+
+          <label for="contraseña2"> Contraseña:</label>
+          <input type="contraseña" id="contraseña2" name="contraseña2"><br>
+
+          <input type="submit" value="Ingresar">
+        </form>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Escríbenos o llámanos
+        E-mail: erikansy@gmail.com<br>
+        Teléfono/ whats app: +57 314 450 8844<br>
+        Puedes contactarnos por nuestro Instagram </p>
+    </section>
+
+  </main>
+
+  <footer>
+    Desarrollado por: ERIKA VANESSA BARON PUENTES
+    </footer>
+
+</body>
+</html>
